@@ -125,11 +125,27 @@ p {
       }
 }
 
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
 
+    h2 {
+      color: #FFF;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 36px;
+      letter-spacing: -1.5px;
+      margin: 0
+    }
+
+  }
 
 
 @import 'header';
 @import 'main-block';
+@import 'video-block';
 @import 'info-block';
 @import 'persons-block';
 @import 'cta-block';
