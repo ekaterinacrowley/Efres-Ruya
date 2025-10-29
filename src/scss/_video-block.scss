@@ -15,6 +15,13 @@
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+
+        @media (max-width: 767px) {
+            font-size: 57.1px;
+            line-height: 57.12px; 
+            letter-spacing: -2.856px;
+            padding: 10px 0 40px;
+        }
     }
 
     &__container {
@@ -25,6 +32,10 @@
         max-width: 1400px;
         height: 900px;
         background: url(../images/video.webp) center/cover no-repeat;
+
+        @media (max-width: 767px) {
+            height: 468px;
+        }
     }
 
     &__link {
